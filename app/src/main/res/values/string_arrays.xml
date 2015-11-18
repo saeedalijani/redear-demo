@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="charge_available_values">
+        <item>۱۰۰۰۰ ریال</item>
+        <item>۲۰۰۰۰ ریال</item>
+        <item>۵۰۰۰۰ ریال</item>
+        <item>۱۰۰۰۰۰ ریال</item>
+    </string-array>
+</resources>

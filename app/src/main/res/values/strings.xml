@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Reader Demo</string>
+    <string name="scan_the_card">لطفا کارت خود را بکشید</string>
+    <string name="error_cannot_read_card">در خواندن کارت خطایی رخ داده. دوباره تلاش کنید</string>
+    <string name="error_pass_is_wrong">رمز وارد شده اشتباه است!</string>
+    <string name="enter_pass">رمز کارت را وارد کنید</string>
+    <string name="enter_cardnum">شماره‌ی کارت مقصد </string>
+    <string name="next_level">مرحله‌ی بعد</string>
+    <string name="next">بعدی</string>
+    <string name="error_invalid_amount">مقدار وارد شده نامعتبر است!</string>
+    <string name="error_invalid_cardnum">شماره‌ی کارت وارد شده نامعتبر است</string>
+    <string name="error_cardnum_is_empty">شماره کارت مقصد را وارد کنید</string>
+    <string name="error_money_amount_is_empty">مبلغ را وارد کنید</string>
+    <string name="error_both__fields_are_empty">شماره کارت و مبلغ را وارد کنید</string>
+    <string name="enter_money">مبلغ </string>
+    <string name="service_name_getBalance">مانده‌حساب</string>
+    <string name="service_name_changePass">تغییر رمز</string>
+    <string name="service_name_transferMoney">انتقال وجه</string>
+    <string name="service_name_payBills">پرداخت قبوض</string>
+    <string name="service_name_buyCharge">خرید شارژ</string>
+    <string name="service_name_getLastTransactions">صورتحساب</string>
+    <string name="action_settings">Settings</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="confirm_1">مبلغ</string>
+    <string name="confirm_2"> به شماره حساب</string>
+    <string name="confirm_3">متعلق به پوریا دانشور منتقل خواهد شد. تأیید می‌کنید؟</string>
+    <string name="rial">ریال</string>
+    <string name="old_pass">رمز قبلی</string>
+    <string name="new_pass">رمز جدید</string>
+    <string name="new_pass_repeat">تکرار رمز جدید</string>
+</resources>

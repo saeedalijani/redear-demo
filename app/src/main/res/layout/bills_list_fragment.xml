@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- android:background="@drawable/bg"> -->
+
+    <LinearLayout
+        android:id="@+id/bills_list_firstRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="24dp">
+
+            <ImageView
+                android:id="@+id/bills_list_gasImageView"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:src="@drawable/bill_gas"/>
+            <TextView
+                android:id="@+id/bills_list_gasTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:text="گاز"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="24dp">
+
+            <ImageView
+                android:id="@+id/bills_list_electImageView"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:src="@drawable/bill_elec"/>
+            <TextView
+                android:id="@+id/bills_list_electTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:text="برق"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bills_list_secondRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/bills_list_firstRow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="24dp">
+
+            <ImageView
+                android:id="@+id/bills_list_telImageView"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:src="@drawable/bill_tel"/>
+            <TextView
+                android:id="@+id/bills_list_telTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:text="تلفن"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="24dp">
+
+            <ImageView
+                android:id="@+id/bills_list_waterImageView"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:src="@drawable/bill_water"/>
+            <TextView
+                android:id="@+id/bills_list_waterTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:text="آب"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

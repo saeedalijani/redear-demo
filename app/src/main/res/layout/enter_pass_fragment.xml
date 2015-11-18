@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- android:background="@drawable/bg"> -->
+
+    <TextView
+        android:id="@+id/enter_pass_passwIsWrongTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:text="@string/error_pass_is_wrong"
+        android:textColor="#FF0000"/>
+
+
+    <TextView
+        android:id="@+id/enter_pass_fragment_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:text="@string/enter_pass"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/enter_pass_fragment_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginRight="88dp"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:inputType="numberPassword"/>
+
+    <Button
+        android:id="@+id/enter_pass_fragment_nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:text="ورود"
+        android:textSize="16sp"
+        android:background="@drawable/custom_button"/>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <!--   android:background="@drawable/bg"> -->
+
+    <!--<TextView-->
+    <!--android:id="@+id/pay_bills_errorTextView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:padding="8dp"-->
+    <!--android:text="@string/error_invalid_amount"-->
+    <!--android:textSize="18sp"-->
+    <!--android:gravity="center"-->
+    <!--android:textColor="#FF0000"/>-->
+
+    <EditText
+        android:id="@+id/pay_bills_billId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="32dp"
+        android:inputType="phone"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:hint="شناسه قبض"/>
+
+    <EditText
+        android:id="@+id/pay_bills_payId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:inputType="phone"
+        android:hint="شناسه پرداخت"/>
+
+    <Button
+        android:id="@+id/pay_bills_payButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="پرداخت"
+        android:textSize="16sp"
+        android:background="@drawable/custom_button"/>
+
+</LinearLayout>
+

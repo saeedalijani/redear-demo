@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--    android:background="@drawable/bg"-->
+
+    <LinearLayout
+        android:id="@+id/firstRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="24dp">
+
+            <ImageView
+                android:id="@+id/service_list_balanceImageView"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:src="@drawable/balance"/>
+            <TextView
+                android:id="@+id/service_list_balanceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:text="@string/service_name_getBalance"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="24dp">
+
+            <ImageView
+                android:id="@+id/service_list_lastTransactionImageView"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:src="@drawable/last_transactions"/>
+            <TextView
+                android:id="@+id/service_list_lastTransactionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:text="@string/service_name_getLastTransactions"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/secondRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/firstRow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="24dp">
+
+            <ImageView
+                android:id="@+id/service_list_moneyTransferImageView"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:src="@drawable/money_transfer"/>
+            <TextView
+                android:id="@+id/service_list_moneyTransferTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:text="@string/service_name_transferMoney"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="24dp">
+
+            <ImageView
+                android:id="@+id/service_list_payBillsImageView"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:src="@drawable/pay_bills"/>
+            <TextView
+                android:id="@+id/service_list_payBillsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:text="@string/service_name_payBills"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/secondRow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="24dp">
+
+            <ImageView
+                android:id="@+id/service_list_changePassImageView"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:src="@drawable/change_pass"/>
+            <TextView
+                android:id="@+id/service_list_changePassTextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:text="@string/service_name_changePass"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="24dp">
+
+            <ImageView
+                android:id="@+id/service_list_chargeImageView"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:src="@drawable/buy_charge"/>
+            <TextView
+                android:id="@+id/service_list_chargeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:text="@string/service_name_buyCharge"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

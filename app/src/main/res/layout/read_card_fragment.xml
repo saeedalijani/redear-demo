@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- android:background="@drawable/bg"> -->
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:src="@drawable/atm_machine"
+        android:layout_gravity="center"
+        android:layout_marginTop="64dp"/>
+
+    <TextView
+        android:id="@+id/read_card_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="64dp"
+        android:padding="16dp"
+        android:text="@string/scan_the_card"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/read_card_errorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:padding="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/error_cannot_read_card"
+        android:textColor="#FF0000"
+        android:textSize="14sp"
+        android:gravity="center"/>
+
+</LinearLayout>

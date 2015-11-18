@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--android:background="@drawable/bg"> -->
+
+
+    <TextView
+        android:id="@+id/balance_accNumTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="64dp"
+        android:padding="16dp"
+        android:text="شماره حساب:"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/balance_accNumTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp"
+        android:padding="16dp"
+        android:text="- - - -"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp">
+        <TableRow
+            android:layout_marginTop="32dp">
+            <TextView
+                android:id="@+id/balance_balanceTextView"
+                android:layout_column="1"
+                android:text="ماندهٔ حساب"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="26sp"
+                />
+            <TextView
+                android:layout_marginRight="40dp"
+                android:id="@+id/balance_historyTextView"
+                android:text="تاریخ"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="26sp"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/balance_balanceTextView2"
+                android:text="-"
+                android:layout_column="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="26sp"/>
+            <TextView
+                android:layout_marginRight="40dp"
+                android:id="@+id/balance_historyTextView2"
+                android:text="///"
+                android:layout_column="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textSize="26sp"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

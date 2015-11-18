@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- android:background="@drawable/bg"> -->
+
+    <TextView
+        android:id="@+id/transfer_confirm_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="مبلغ فلان قدر به شماره حساب فلان متعلق به فلانی منتقل خواهد شد. تأیید می‌کنید؟"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/transfer_confirm_cardNumTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="مبلغ فلان قدر به شماره حساب فلان متعلق به فلانی منتقل خواهد شد. تأیید می‌کنید؟"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/transfer_confirm_lastTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="مبلغ فلان قدر به شماره حساب فلان متعلق به فلانی منتقل خواهد شد. تأیید می‌کنید؟"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:padding="4dp">
+        <Button
+            android:id="@+id/transfer_confirm_noButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:text="@string/no"
+            android:textSize="16sp"
+            android:background="@drawable/custom_button"/>
+        <Button
+            android:id="@+id/transfer_confirm_yesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/yes"
+            android:textSize="16sp"
+            android:background="@drawable/custom_button"/>
+    </LinearLayout>
+
+
+</LinearLayout>
